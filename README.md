@@ -24,33 +24,31 @@
 ## 🚀 快速开始
 
 ### 环境要求
-- Python 3.8+
+- Python 3.12
 - pip 包管理器
 
 ### 安装步骤
 
 1. **克隆项目**
-git clone https://github.com/RevolutionTTT/intern-portfolio.git
-cd intern-portfolio
+'git clone https://github.com/RevolutionTTT/intern-portfolio.git'
+'cd intern-portfolio'
 2. **创建虚拟环境**
 bash
 
-python -m venv venv
+'python -m venv venv'
 
 Windows
-venv\Scripts\activate
+'venv\Scripts\activate'
 
 Linux/Mac
-source venv/bin/activate
+'source venv/bin/activate'
 
-复制
 3. **安装依赖**
 bash
 
-pip install -r requirements.txt
+'pip install -r requirements.txt'
 
-复制
 4. **运行爬虫**
 bash
 
-python main.py
+'python main.py'
