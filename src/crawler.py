@@ -63,8 +63,8 @@ class ProxyManager:
                 """ 创建连接器并配置代理 """
                 connector = ProxyConnector.from_url(
                     proxy_url,  # 这里配置代理
-                    limit=5,  # 连接池大小
-                    limit_per_host=6,  # 每个主机限制
+                    limit=30,  # 连接池大小
+                    limit_per_host=30,  # 同一 (scheme, host, port) 的并发连接上限（受 limit 约束）
                     keepalive_timeout=30,
                 )
 
